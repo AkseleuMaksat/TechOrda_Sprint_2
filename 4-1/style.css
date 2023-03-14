@@ -1,0 +1,161 @@
+.header {
+    display: flex;
+    padding: 0 20px 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3600b5;
+    color: #fff;
+}
+
+.title {
+    font-size: 26px;
+}
+
+.logout {
+    font-size: 18px;
+}
+
+/* MAIN */
+
+.main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.fullname {
+    font-size: 20px;
+}
+
+.username a {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.description {
+    margin: 0 0 20px 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.about, .links a {
+    border: 1px grey solid;
+}
+
+.content, .friends {
+    width: 55%;
+}
+
+.content_body:not(:first-child) {
+    margin-top: 20px;
+}
+
+.content img {
+    width: 100%;
+    height: 300px;
+}
+
+.content_desc {
+    padding: 0 20px 0 20px;
+}
+
+.content_btn {
+    background-color: #3600b5;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.news {
+    width: 21%;
+}
+
+.news_element {
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+    text-decoration: none;
+    color: #000;
+}
+
+.news_author {
+    color: grey;
+}
+
+.news_clock {
+    margin-top: 20px;
+}
+
+
+/* FRIENDS PAGE */
+
+.friends_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends_info:not(:first-child) {
+    margin-top: 20px;
+}
+
+.friends_desc {
+    width: 580px;
+}
+
+.friends img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.friends_name {
+    font-size: 16px;
+}
+
+.send_message {
+    padding: 5px;
+    border: none;
+    background-color: #7b7b7b;
+    color: #fff;
+}
+
+.remove_container {
+    margin-top: 10px;
+}
+
+.remove {
+    padding: 5px 20px 5px 20px;
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+}
